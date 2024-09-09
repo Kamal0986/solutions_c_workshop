@@ -12,4 +12,5 @@ int main() {
     scanf("%d",&k);
     printf("the summation of A + B = %d",j+k);
     
+    return 0;
 }

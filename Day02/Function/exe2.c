@@ -1,4 +1,4 @@
-
+// Online C compiler to run C program online
 #include <stdio.h>
 int multiplication(int a , int b){
     return a * b ;
