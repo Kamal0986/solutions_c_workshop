@@ -56,7 +56,7 @@ void change_Qtty() {
 	getchar();
 	fgets(book_name,50,stdin);
 	for(int i=0; i<count; i++) {
-		if(strcmp(book[i].Title, book_name)==0) {
+		if(strcmp ( book[i].Title , book_name)==0) {
 			printf("enter the new Quantity: ");
 			scanf("%d",&new_Quantity);
 			book[i].Quantity = new_Quantity ;
